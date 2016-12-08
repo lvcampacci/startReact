@@ -5,13 +5,13 @@ render(){
 			return(
 				<div>
 
-					<h2> Estádio </h2>
+					<h2> {this.props.estadio} </h2>
 
 					<div>
 
-						<span> Data </span>
+						<span> {this.props.data} </span>
 						<span>   -   </span>
-						<span> Hora</span>
+						<span> {this.props.hora}</span>
 
 					</div>
 
